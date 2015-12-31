@@ -103,7 +103,6 @@ class GriddleFieldSource extends Object
      */
     public function serialize($sort, $sortAscending, $start, $length)
     {
-
         $list = $this->list;
         $start = intval($start);
         $length = intval($length);
@@ -141,6 +140,5 @@ class GriddleFieldSource extends Object
         }
 
         return $results;
-
     }
 }

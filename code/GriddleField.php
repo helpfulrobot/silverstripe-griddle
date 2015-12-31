@@ -50,13 +50,11 @@ class GriddleField extends ReactFormField
 
     protected static function getDefault(SS_HTTPRequest $request, $var, $default)
     {
-
         if ($value = $request->getVar($var)) {
             return $value;
         }
 
         return $default;
-
     }
 
     public function getInitialProperties()

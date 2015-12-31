@@ -37,7 +37,6 @@ class ReactFormField extends FormField
             )),
             404
         );
-
     }
 
     /**
